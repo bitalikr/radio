@@ -644,8 +644,45 @@ nav .container{
 .catalog-ul-bottom li{
 	width: 101%;
 }
+.roll_item-new{
+	position: relative;
+	overflow: hidden;
+}
+.roll_item-new:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left:3px;
+	top:3px;
+	width: 77px;
+	height: 77px;
+	background: url('../img/NEW.png')no-repeat left top;
+	/*color:#fff;
+	font:700 30px 'MyRiadPro',sans-serif;
+	width: 75px;
+	height: 75px;
+	transform: rotate(45deg) translate(-50%,-50%);
+	background: rgba(255,153,0,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,153,0,1) 0%, rgba(200,70,0,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,153,0,1)), color-stop(100%, rgba(200,70,0,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,153,0,1) 0%, rgba(200,70,0,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,153,0,1) 0%, rgba(200,70,0,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,153,0,1) 0%, rgba(200,70,0,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,153,0,1) 0%, rgba(200,70,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#c84600', GradientType=1 );*/
+}
 #menu-btn{
 	display: none;
+}
+
+/*ROOLL*/
+
+.roll__wr{
+	font-size: 0;
+}
+.roll__wr .roll-item{
+	width: 20%;
+	display: inline-block;
 }
 
 @media screen and (max-width:1200px) {
